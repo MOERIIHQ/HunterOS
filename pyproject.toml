@@ -1,0 +1,22 @@
+[project]
+name = "hunteros"
+version = "0.1.0"
+description = "HunterOS - Personal Bug Hunter Research, Learning & Disclosure Framework (v0.1 Foundation)"
+requires-python = ">=3.10"
+authors = [{name = "Tuan"}]
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+hunter = "hunteros.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = ["-v"]

@@ -1,0 +1,25 @@
+# HunterOS .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+*.db
+*.sqlite
+*.sqlite3
+.hunteros/
+*.swp
+*.swo
+*~
+.env
+.idea/
+.vscode/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg
+.hermes/
